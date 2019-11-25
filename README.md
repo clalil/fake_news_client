@@ -1,25 +1,96 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Fake News - The newsroom challenge
 
-## Available Scripts
+The application was created in November 2019, as a three week project during the the Craft Academy [Full Stack Web Developer Bootcamp](https://craftacademy.se/english/). 
 
-In the project directory, you can run:
+---
+### Authors
+[Clarissa Liljander](https://github.com/clalil)  
+[Sverrir Steindorsson](https://github.com/shsteindorsson)  
+[Jonas Masqua]()  
+[Luca Lobacher]()  
+[Alex Saxena]()  
 
-### `yarn start`
+## Built with  
+Back-end API:
+- [Ruby on Rails](https://rubyonrails.org/), version 6.0.0  
+- [RSpec](https://rspec.info/), for unit testing  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Front-end Client:
+- [React](https://rspec.info/), version 16.11.0
+- [Cypress](https://www.cypress.io/), for automated testing  
+- [Amazon webstorage](https://aws.amazon.com/), for storing user generated images 
+- [Semantic UI React](https://react.semantic-ui.com/) and CSS, for UX 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<img src="./src/img/cookbook_first.png" alt="Image of app" width="40%">
+<img src="./src/img/cookbook_main.png" alt="Image of app" width="40%">
+<img src="./src/img/cookbook_directions.png" alt="Image of app" width="40%">
+<img src="./src/img/login.png" alt="Image of app" width="40%">
+<img src="./src/img/my_recipes.png" alt="Image of app" width="40%">
+<img src="./src/img/web_generate.png" alt="Image of app" width="40%">
 
-### `yarn test`
+### Dependencies  
+Back-end API:
+* [Pundit](https://github.com/varvet/pundit)
+* [AWS](https://rubygems.org/gems/aws-sdk-s3/versions/1.0.0.rc2)  
+...please see our Gemfile to view all of our dependencies in this project. 
 
-Launches the test runner in the interactive watch mode.<br />
+Front-end Client:
+* React
+* Axios
+* Redux & Redux Token Auth  
+...please see our package.json file to view all of our dependencies in this project.  
 
-### `yarn build`
+---
+## Deloyment URL
+This application consists of a front-end Client and a back-end API. Our team's CraftAcademy repos are found at:  
+[Front-end Deployment](https://newsroom-fake-news.netlify.com/) and [Front-end GitHub](https://github.com/CraftAcademy/fake_news_client)  
+[Back-end Deployment](https://.herokuapp.com/) and [Back-end GitHub](https://github.com/CraftAcademy/fake_news_api)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
+## User Stories & Project Management
+Our team worked agile over a three week timeline using 7 day sprints beginning with a three-day design sprint. For more information, please read our user stories and our features on our [Pivotal Tracker board](https://www.pivotaltracker.com/n/projects/2407392). 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+---
+## Getting Started
+If you want to try out the code for yourself on your local machine:  
+### API
+Fork the Fake news API repo, clone it down.  
+Run the following command to to install all of the dependencies above and some additional ones on your computer:
+>$ bundle   
+
+Then run this command to create a database and populate it with users and articles:  
+>$ rails db:create db:migrate db:seed
+  
+To run the application locally on your computer:
+>$ rails s  
+
+To run the unit tests:
+>$ rspec
+
+### Client
+Fork the Fake News Client repo, clone it down.  
+This command will install all of the dependencies on your computer: 
+>$ yarn install
+
+To run the application locally on your computer:
+>$ yarn start
+
+To run all of our feature tests:
+>$ yarn cy:open
+
+---
+## Test Coverage and Continuous Integration (CI)
+[Coveralls](https://coveralls.io/) was used to test our code coverage during this project.  
+Continuous integration was handled using [Semaphore](https://semaphoreci.com/).  
+
+---
+## Acknowledgements
+- [StackOverflow](https://stackoverflow.com/)
+- [Pexels](https://www.pexels.com/)
+
+---
+## Special Thanks
+To our coaches and staff at [Craft Academy](https://craftacademy.se/)!
+
+## License
+This project is under the [MIT](https://opensource.org/licenses/MIT)-license

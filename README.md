@@ -1,6 +1,6 @@
 ## Fake News - The newsroom challenge
 
-The application was created in November 2019, as a three week project during the the Craft Academy [Full Stack Web Developer Bootcamp](https://craftacademy.se/english/). 
+The application was created in October & November of 2019, as a three week project during the the Craft Academy [Full Stack Web Developer Bootcamp](https://craftacademy.se/english/). 
 
 ---
 ### Authors

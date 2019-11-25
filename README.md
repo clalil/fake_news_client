@@ -16,35 +16,32 @@ Back-end API:
 - [RSpec](https://rspec.info/), for unit testing  
 
 Front-end Client:
-- [React](https://rspec.info/), version 16.11.0
+- [React](https://rspec.info/), version 16.11.0  
 - [Cypress](https://www.cypress.io/), for automated testing  
-- [Amazon webstorage](https://aws.amazon.com/), for storing user generated images 
 - [Semantic UI React](https://react.semantic-ui.com/) and CSS, for UX 
-
-<img src="./src/img/cookbook_first.png" alt="Image of app" width="40%">
-<img src="./src/img/cookbook_main.png" alt="Image of app" width="40%">
-<img src="./src/img/cookbook_directions.png" alt="Image of app" width="40%">
-<img src="./src/img/login.png" alt="Image of app" width="40%">
-<img src="./src/img/my_recipes.png" alt="Image of app" width="40%">
-<img src="./src/img/web_generate.png" alt="Image of app" width="40%">
 
 ### Dependencies  
 Back-end API:
 * [Pundit](https://github.com/varvet/pundit)
 * [AWS](https://rubygems.org/gems/aws-sdk-s3/versions/1.0.0.rc2)  
+* [Stripe](https://github.com/stripe/stripe-ruby)  
+* [Stripe-ruby-mock](https://github.com/rebelidealist/stripe-ruby-mock)
+* [Faker](https://github.com/faker-ruby/faker)  
 ...please see our Gemfile to view all of our dependencies in this project. 
 
 Front-end Client:
-* React
-* Axios
-* Redux & Redux Token Auth  
+* [Axios](https://github.com/axios/axios)
+* [Redux & Redux Token Auth](https://github.com/kylecorbelli/redux-token-auth)
+* [Amazon webstorage](https://aws.amazon.com/), for storing user generated images 
+* [Stripe](https://stripe.com/), for payment options
+* [i18next](https://www.i18next.com/), for internationalization (incl. browser-language-detector and xhr-backend)  
 ...please see our package.json file to view all of our dependencies in this project.  
 
 ---
 ## Deloyment URL
 This application consists of a front-end Client and a back-end API. Our team's CraftAcademy repos are found at:  
 [Front-end Deployment](https://newsroom-fake-news.netlify.com/) and [Front-end GitHub](https://github.com/CraftAcademy/fake_news_client)  
-[Back-end Deployment](https://.herokuapp.com/) and [Back-end GitHub](https://github.com/CraftAcademy/fake_news_api)
+[Back-end Deployment](https://.herokuapp.com/) and [Back-end GitHub](https://github.com/CraftAcademy/fake_news_backend)
 
 ---
 ## User Stories & Project Management

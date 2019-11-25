@@ -17,6 +17,7 @@ Back-end API:
 
 Front-end Client:
 - [React](https://rspec.info/), version 16.11.0  
+- [React Native](https://github.com/facebook/react-native), for the mobile version  
 - [Cypress](https://www.cypress.io/), for automated testing  
 - [Semantic UI React](https://react.semantic-ui.com/) and CSS, for UX 
 
@@ -41,6 +42,7 @@ Front-end Client:
 ## Deloyment URL
 This application consists of a front-end Client and a back-end API. Our team's CraftAcademy repos are found at:  
 [Front-end Deployment](https://newsroom-fake-news.netlify.com/) and [Front-end GitHub](https://github.com/CraftAcademy/fake_news_client)  
+[Front-end Github for mobile version](https://github.com/CraftAcademy/fake_news_mobile)  
 [Back-end Deployment](https://.herokuapp.com/) and [Back-end GitHub](https://github.com/CraftAcademy/fake_news_backend)
 
 ---

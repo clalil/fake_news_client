@@ -40,7 +40,11 @@ Front-end Client:
 
 ---
 ## Deloyment URL
-This application consists of a front-end Client and a back-end API. Our team's CraftAcademy repos are found at:  
+This application consists of a front-end Client and a back-end API. To fully explore the website you can log in as a journalist & create articles using the following credentials:  
+**username:** journalist  
+**password:** password 
+  
+Our team's CraftAcademy repos are found at:  
 [Front-end Deployment](https://newsroom-fake-news.netlify.com/) and [Front-end GitHub](https://github.com/CraftAcademy/fake_news_client)  
 [Front-end Github for mobile version](https://github.com/CraftAcademy/fake_news_mobile)  
 [Back-end Deployment](https://.herokuapp.com/) and [Back-end GitHub](https://github.com/CraftAcademy/fake_news_backend)
